@@ -1,0 +1,43 @@
+
+.chattab{
+	display: flex;
+	padding: 15px;
+	cursor: pointer;
+	border-bottom: 1px solid #f6f6f6;
+	transition: background 200ms ease-in-out;
+}
+
+.chattab:hover{
+	background: #ededed;
+}
+
+.chattab-info{
+	margin-left: 15px;
+}
+
+.chattab-info h5{
+	font-size: 13px;
+	margin-bottom: 7px;
+}
+
+.chattab-info p{
+	font-size: 13px;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.chattab-new{
+	padding: 15px;
+	background: #12b58d;
+	color: #fff;
+	cursor: pointer;
+	transition: 300ms all linear;
+}
+
+.chattab-new:hover{
+	padding-left: 30px;
+}
